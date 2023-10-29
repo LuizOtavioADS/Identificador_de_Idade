@@ -24,7 +24,7 @@ function verificar(){
                 img.setAttribute('src', 'jovem-m.jpg')
             } else {
                 //idoso
-                img.setAttribute('src', 'velho-m.jpg')
+                img.setAttribute('src', 'idoso-m.jpg')
             }
         }else if (fsex[1].checked){
             genero = 'Mulher'
@@ -39,7 +39,7 @@ function verificar(){
                 img.setAttribute('src', 'jovem-f.jpg')
             } else {
                 //idoso
-                img.setAttribute('src', 'velha-f.jpg')
+                img.setAttribute('src', 'idosa-f.jpg')
             }
         }
         res.style.textAlign = 'center'
